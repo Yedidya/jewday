@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/jewday/shabbos-times"
+
+x = Jewday::ShabbosInfo.new(60645)
